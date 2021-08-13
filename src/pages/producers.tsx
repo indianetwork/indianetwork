@@ -61,7 +61,10 @@ const ProducersPage: React.FC<Props> = ({ data, location }: Props) => {
             <IframeResizer
               log
               src={producersLoginFormUrl}
+              //src="http://localhost:8001/producers/dashboard/homepage.php"
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
+              heightCalculationMethod= "lowestElement"
+              scrolling="auto"
             />
           </div>
         </Container>

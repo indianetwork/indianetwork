@@ -128,11 +128,11 @@ const TestimonialHomeSlider = ({ className }) => {
               <h3 className="testi-name text-white">KUMAR</h3>
               <p className="text-white testi-content">It was a great experience working with Prakash in getting INF insurance policy done for my in-laws. He is always easily approachable and clearly explains each and every plan details which suits for our needs and complete the application process in real quick. He goes extra mile by answering any additional follow up questions anytime.</p>
               <div className="star-icons">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -146,11 +146,11 @@ const TestimonialHomeSlider = ({ className }) => {
               <h3 className="testi-name text-white">Ravikanth J </h3>
               <p className="text-white testi-content">I’ve been using INF every time my parents have come and visited for the last 18 years, or pretty much since Y2K. They are a community-based company and I can really tell they care for their customers. I’ve met many of their team members throughout the years, all of them are courteous and helpful in getting the claims paid and going the extra mile if there’s some sort of paperwork issue. Overall, I’m really happy that this company exists for traveling Indian parents because no other company is covering pre-existing conditions. And I know without this plan, I wouldn’t feel comfortable bringing my parents over.</p>
               <div className="star-icons">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -164,11 +164,11 @@ const TestimonialHomeSlider = ({ className }) => {
               <h3 className="testi-name text-white">GAURAV MALHOTRA</h3>
               <p className="text-white testi-content">I had a great experience with INF. Was working with Prakash gave me all the guidance on buying the Bmi program. They covered a Covid test for my mom who was feeling sick right after she came on her flight. Luckily she tested negative. I was happy with the overall service and cashless service. Always happy to recommend INF to friends and family!</p>
               <div className="star-icons">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
               </div>
             </div>
           </div>

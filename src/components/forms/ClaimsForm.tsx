@@ -30,6 +30,7 @@ const ClaimsForm = ({ action, ...props }) => {
         log
         src={claimsFormUrl}
         style={{ width: '1px', minWidth: '100%', border: 'none'}}
+        heightCalculationMethod= "lowestElement"
       />
       {/*<div className="embed-container">
         <iframe src="https://sec.infplans.com/forms/claims-form.php" id="claims-form" scrolling="no"></iframe>

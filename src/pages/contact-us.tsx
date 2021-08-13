@@ -14,6 +14,7 @@ import {FiClock} from '@react-icons/all-files/fi/FiClock'
 import {FiPhoneCall} from '@react-icons/all-files/fi/FiPhoneCall'
 import {FiMail} from '@react-icons/all-files/fi/FiMail'
 import { Helmet } from 'react-helmet'
+import ReCAPTCHA from "react-google-recaptcha"
 
 interface Props {
   data: IndexQueryQuery
@@ -75,6 +76,7 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <input type="email" id="cemail" name="cemail" placeholder="Your Email Address*" />
                     <input type="tel" id="cphone" name="cphone" placeholder="Your Phone Number*" />
                     <textarea id="cmsg" name="cmsg" placeholder="Your Message*" />
+                    <ReCAPTCHA sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" className="mb-3"/>
                     <input type="submit" name="csubmit" value="Submit" />
                   </form>
                 </div>

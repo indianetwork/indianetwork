@@ -69,7 +69,10 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
             <IframeResizer
               log
               src={extendFormUrl}
+              //src="http://localhost:8001/memberHub/dashboard/homepage.php"
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
+              heightCalculationMethod= "lowestElement"
+              scrolling="auto"
             />
            {/*<div className="embed-container">
              <iframe src="https://sec.infplans.com/forms/extend-form.php" id="extend-form" scrolling="no"></iframe>

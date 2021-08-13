@@ -285,7 +285,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
               </nav>
 
               <section>
-               <div class="conditions-tabone">
+               <div className="conditions-tabone">
                 <div className="row">
                   <div className="col-lg-3">
                   <div className="column-tab">
@@ -367,7 +367,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
               </div>
 
-                <div class="conditions-tabtwo">
+                <div className="conditions-tabtwo">
                 <div className="row">
                   <div className="col-lg-3">
                   <div className="column-tab">
@@ -467,7 +467,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
               </div>
 
-                <div class="conditions-tabthree">
+                <div className="conditions-tabthree">
                 <div className="row">
                   <div className="col-lg-3">
                   <div className="column-tab">

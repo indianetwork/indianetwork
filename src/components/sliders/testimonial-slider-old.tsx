@@ -128,11 +128,11 @@ const TestimonialHomeSliderOld = ({ className }) => {
               <h3 className="testi-name text-white">KUMAR</h3>
               <p className="text-white testi-content">It was a great experience working with Prakash in getting INF insurance policy done for my in-laws. He is always easily approachable and clearly explains each and every plan details which suits for our needs and complete the application process in real quick. He goes extra mile by answering any additional follow up questions anytime.</p>
               <div className="star-icons">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -146,11 +146,11 @@ const TestimonialHomeSliderOld = ({ className }) => {
               <h3 className="testi-name text-white">SHANTI RAM</h3>
               <p className="text-white testi-content">I had a pretty pleasant experience. I bought the elite plan for my mom who is visiting from India. She had recently had a major skin infection- but it was covered thru their UHC Doctor.. They were very responsive and helped me with all the paperwork. Praveen and Peter are the go to people if u need help.</p>
               <div className="star-icons">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -164,11 +164,11 @@ const TestimonialHomeSliderOld = ({ className }) => {
               <h3 className="testi-name text-white">GAURAV MALHOTRA</h3>
               <p className="text-white testi-content">I had a great experience with INF. Was working with Prakash gave me all the guidance on buying the Bmi program. They covered a Covid test for my mom who was feeling sick right after she came on her flight. Luckily she tested negative. I was happy with the overall service and cashless service. Always happy to recommend INF to friends and family!</p>
               <div className="star-icons">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
               </div>
             </div>
           </div>

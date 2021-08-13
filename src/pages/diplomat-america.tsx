@@ -230,7 +230,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
            </nav>
 
            <section>
-            <div class="info-tabone">
+            <div className="info-tabone">
               <div className="col-lg-12 med-exp">
                 <div className="row">
                   <p className="text-center plan">
@@ -290,7 +290,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
             </div>
 
-            <div class="info-tabtwo">
+            <div className="info-tabtwo">
               <div className="col-lg-12 company">
                 <p className="text-center company-claim">
                   The Company, upon receipt of a written notice of claim, will furnish to the claimant such forms as are usually furnished by it for filing proofs of loss. If such forms are not furnished within 15 days after the giving of such notice, the claimant shall be deemed to have complied with the requirements of this Plan by submitting, within the time fixed in this Plan for filing proofs of loss, written proof showing the occurrence, nature and extent of the loss for which claim is made.
@@ -333,13 +333,13 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
             </div>
 
-            <div class="info-tabthree">
+            <div className="info-tabthree">
             <div className="col-lg-12 refund-prem">
                   <p className="text-center ref">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
               </div>
             </div>
 
-            <div class="info-tabfour">
+            <div className="info-tabfour">
               <div className="col-lg-12">
                 <div className="row">
                   <p className="text-center enhanced">Enhanced AD&D Benefit Rates (Per Person / Month) *Enhanced AD&D amount and additional rate apply to age 18+</p>

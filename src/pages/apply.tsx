@@ -72,7 +72,7 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
                 <Img fluid={infplans_big_logo} className="big-logo"/>
                 <p className="text-center sub-content">Insurance is offered to persons traveling on a limited duration trip (364 days or less) to the US, Canada or Mexico.</p>
                 <p className="note">Please note that INF Premier and Elite plans require minimum 90 days enrollment; and Standard and Traveler USA require minimum 30 days enrollment.</p>
-                <div class="apply-tab">
+                <div className="apply-tab">
                   <input checked="checked" id="apply-tabone" type="radio" name="apply" />
                   <input id="apply-tabtwo" type="radio" name="apply" />
                   <nav>
@@ -92,11 +92,11 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
                         <div className="row">
                           <div className="col-lg-6">
                             <p className="overview text-blue text-center">Plan Overview</p>
-                            <button class="read-btn">Read More</button>
+                            <button className="read-btn">Read More</button>
                           </div>
                           <div className="col-lg-6">
                             <p className="summary text-blue text-center">Summary of Benefits</p>
-                            <button class="download-btn">Download Summary</button>
+                            <button className="download-btn">Download Summary</button>
                           </div>
                         </div>
                       </div>
@@ -108,11 +108,11 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
                         <div className="row">
                           <div className="col-lg-6">
                             <p className="overview text-blue text-center">Plan Overview</p>
-                            <button class="read-btn">Read More</button>
+                            <button className="read-btn">Read More</button>
                           </div>
                           <div className="col-lg-6">
                             <p className="summary text-blue text-center">Summary of Benefits</p>
-                            <button class="download-btn">Download Summary</button>
+                            <button className="download-btn">Download Summary</button>
                           </div>
                         </div>
                       </div>

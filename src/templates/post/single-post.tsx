@@ -12,7 +12,7 @@ import './style.scss'
 const getDescription = (content: string): string => {
   const body = content.replace(
     /<blockquote>/g,
-    '<blockquote class="blockquote">'
+    '<blockquote className="blockquote">'
   )
   if (body.match('<!--more-->')) {
     const [description] = body.split('<!--more-->')

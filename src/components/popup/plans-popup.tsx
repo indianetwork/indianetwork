@@ -65,24 +65,24 @@ const PlansPopup: React.FC<Props> = ({ children, location }: Props) => {
   return (
     <div>
       {popupStatus && popupNumber == 1 && popupReady ? (
-      <div class="modal fade show" id="myModal" role="dialog">
-       <div class="modal-dialog modal-lg">
-         <div class="modal-content">
-         <div class="modal-body">
-          <div class="container py-4">
-             <div class="row">
-                 <div class="col-md-12">
-                     <div class="d-flex">
-                         <ul id="tabsJustified" class="nav nav-pills flex-column">
+      <div className="modal fade show" id="myModal" role="dialog">
+       <div className="modal-dialog modal-lg">
+         <div className="modal-content">
+         <div className="modal-body">
+          <div className="container py-4">
+             <div className="row">
+                 <div className="col-md-12">
+                     <div className="d-flex">
+                         <ul id="tabsJustified" className="nav nav-pills flex-column">
                            <Img fluid={standard_popup_logo} className="popup-logo"/>
-                             <li class="nav-item"><a href="#ivas-coverage" data-target="#ivas-coverage" data-toggle="tab" class="nav-link small active">INF Standard IVAS Coverages</a></li>
-                             <li class="nav-item"><a href="#ivas-benefits" data-target="#ivas-benefits" data-toggle="tab" class="nav-link small">INF Standard IVAS Schedule of Benefits</a></li>
-                             <li class="nav-item"><a href="#ivas-description" data-target="#ivas-description" data-toggle="tab" class="nav-link small">INF Standard IVAS Plan Description</a></li>
+                             <li className="nav-item"><a href="#ivas-coverage" data-target="#ivas-coverage" data-toggle="tab" className="nav-link small active">INF Standard IVAS Coverages</a></li>
+                             <li className="nav-item"><a href="#ivas-benefits" data-target="#ivas-benefits" data-toggle="tab" className="nav-link small">INF Standard IVAS Schedule of Benefits</a></li>
+                             <li className="nav-item"><a href="#ivas-description" data-target="#ivas-description" data-toggle="tab" className="nav-link small">INF Standard IVAS Plan Description</a></li>
                          </ul>
-                         <div class="tab-content p-3 w-100">
+                         <div className="tab-content p-3 w-100">
                            <button type="button" className="close" data-dismiss="modal" onClick={closeModal}>&times;</button>
-                             <div id="ivas-coverage" class="tab-pane fade active show">
-                             <div class="tabcontent">
+                             <div id="ivas-coverage" className="tab-pane fade active show">
+                             <div className="tabcontent">
                              <div className="col-lg-12 ivas-standard">
                                <h2 className="text-blue text-center">INF Standard IVAS Coverages</h2>
                                <p className="text-black text-center tab-row-title">*The Standard Plan has no coverage for pre-existing conditions.</p>
@@ -181,8 +181,8 @@ const PlansPopup: React.FC<Props> = ({ children, location }: Props) => {
                              </div>
                              </div>
 
-                             <div id="ivas-benefits" class="tab-pane fade show">
-                             <div class="tabcontent">
+                             <div id="ivas-benefits" className="tab-pane fade show">
+                             <div className="tabcontent">
                              <div className="col-lg-12 ivas-standard">
                              <h2 className="text-blue text-center">INF Standard IVAS Schedule of Benefits </h2>
                              <p className="text-black text-center tab-row-title">$50,000 Policy Max</p>
@@ -570,8 +570,8 @@ const PlansPopup: React.FC<Props> = ({ children, location }: Props) => {
                                </div>
                              </div>
                              </div>
-                             <div id="ivas-description" class="tab-pane fade show">
-                             <div class="tabcontent">
+                             <div id="ivas-description" className="tab-pane fade show">
+                             <div className="tabcontent">
                              <div className="col-lg-12 ivas-standard">
                                <h2 className="text-blue text-center">INF Standard IVAS Plan Description</h2>
                              </div>

@@ -243,7 +243,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
         <div className="col-lg-12">
           <h3 className="text-blue text-center row-title">Additional Claims Information</h3>
 
-           <div class="additional-tab">
+           <div className="additional-tab">
              <input checked="checked" id="additional-tabone" type="radio" name="additional-claims" />
 
              <nav>
@@ -273,7 +273,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12">
            <h3 className="text-blue text-center row-title">Claims Process FAQs</h3>
 
-             <div class="process-tab">
+             <div className="process-tab">
                <input checked="checked" id="process-tabone" type="radio" name="process-faqs" />
                <input id="process-tabtwo" type="radio" name="process-faqs" />
                <input id="process-tabthree" type="radio" name="process-faqs" />

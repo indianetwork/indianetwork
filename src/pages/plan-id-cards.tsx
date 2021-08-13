@@ -65,7 +65,10 @@ const PlanIDCardsPage: React.FC<Props> = ({ data, location }: Props) => {
             <IframeResizer
               log
               src={planIdCardsFormUrl}
+              // src="http://localhost:8001/memberHub/dashboard/homepage.php"
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
+              heightCalculationMethod= "lowestElement"
+              scrolling="no"
             />
             {/*<div className="embed-container">
               <iframe src="https://sec.infplans.com/forms/plan-id-cards-form.php" id="members-login-form" scrolling="no"></iframe>

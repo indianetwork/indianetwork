@@ -52,7 +52,10 @@ const MembersPage: React.FC<Props> = ({ data, location }: Props) => {
             <IframeResizer
               log
               src={membersLoginFormUrl}
+              //src="http://localhost:8001/memberHub/dashboard/homepage.php"
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
+              heightCalculationMethod= "lowestElement"
+              scrolling="auto"
             />
           </div>
         </Container>

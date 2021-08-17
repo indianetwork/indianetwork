@@ -72,11 +72,11 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="left-content">
                   <h2 className="text-blue text-center">Contact Us Today</h2>
                   <form method="POST" action={contactFormUrl}>
-                    <input type="text" id="cname" name="cname" placeholder="Your Name*" />
-                    <input type="email" id="cemail" name="cemail" placeholder="Your Email Address*" />
-                    <input type="tel" id="cphone" name="cphone" placeholder="Your Phone Number*" />
-                    <textarea id="cmsg" name="cmsg" placeholder="Your Message*" />
-                    <ReCAPTCHA sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" className="mb-3"/>
+                    <input type="text" id="cname" name="cname" placeholder="Your Name*" required/>
+                    <input type="email" id="cemail" name="cemail" placeholder="Your Email Address*" required/>
+                    <input type="tel" id="cphone" name="cphone" placeholder="Your Phone Number*" required/>
+                    <textarea id="cmsg" name="cmsg" placeholder="Your Message*" required/>
+                    <ReCAPTCHA sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" className="mb-3" required/>
                     <input type="submit" name="csubmit" value="Submit" />
                   </form>
                 </div>

@@ -13,6 +13,7 @@ module.exports = {
     backendUrl: 'https://adrienb3.sg-host.com',
     phoneNumber: '800-490-9678',
     emailAddress: 'support@infplans.com',
+    siteKey: '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI',
   },
   flags: {
     DEV_SSR: false,

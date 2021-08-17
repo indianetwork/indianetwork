@@ -31,8 +31,10 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
   const contactFormUrl = backendUrl + "/contact/"
   const phoneNumber = meta.phoneNumber
   const emailAddress = meta.emailAddress
+  const siteKey = meta.siteKey
   const emailAddressUrl = "mailto:"+emailAddress
   const phoneNumberUrl = "tel:"+phoneNumber
+
 
   return (
     <Layout location={location}>
@@ -76,7 +78,7 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <input type="email" id="cemail" name="cemail" placeholder="Your Email Address*" required/>
                     <input type="tel" id="cphone" name="cphone" placeholder="Your Phone Number*" required/>
                     <textarea id="cmsg" name="cmsg" placeholder="Your Message*" required/>
-                    <ReCAPTCHA sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" className="mb-3" required/>
+                    <ReCAPTCHA sitekey={siteKey} className="mb-3" required/>
                     <input type="submit" name="csubmit" value="Submit" />
                   </form>
                 </div>
@@ -122,32 +124,7 @@ export const query = graphql`
         backendUrl
         phoneNumber
         emailAddress
-      }
-    },
-    remark: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      posts: edges {
-        post: node {
-          html
-          frontmatter {
-            layout
-            title
-            path
-            category
-            author
-            tags
-            description
-            date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fluid(maxHeight: 362) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
+        siteKey
       }
     },
     hero_background: file(name: { eq: "contact-hero-bg" }) {
